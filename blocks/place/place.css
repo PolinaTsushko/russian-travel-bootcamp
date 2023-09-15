@@ -1,0 +1,36 @@
+.place {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "web_url"
+    "image_nature"
+    "article";
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    grid-template-areas:
+      "title web_url"
+      "image_nature article";
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .place {
+    grid-template-columns: 460px 1fr;
+    column-gap: 40px;
+  }
+}
