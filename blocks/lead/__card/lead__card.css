@@ -1,0 +1,23 @@
+.lead__card {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+
+@media screen and (min-width:768px) {
+    .lead__card {
+        padding: 56px 0 0 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .lead__card {
+        padding: 56px 48px 0 48px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .lead__card {
+        padding: 64px 148px 0 148px;
+    }
+}
