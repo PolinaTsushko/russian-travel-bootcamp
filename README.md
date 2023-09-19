@@ -11,4 +11,7 @@ Grid
 Подключение сторонних шрифтов
 GIT
 
-https://github.com/PolinaTsushko/russian-travel-bootcamp
+
+ССЫЛКА НА ПРОЕКТ: 
+
+https://polinatsushko.github.io/russian-travel-bootcamp/
